@@ -1,0 +1,22 @@
+@use './body.scss';
+
+header {
+    text-align: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.Ingredients {
+    border-color: black;
+    border-width: 2px;
+}
+
+h1 {
+    background-color: hsl(319, 70%, 80%);
+}
+
+span {
+    font-weight: bold;
+}
