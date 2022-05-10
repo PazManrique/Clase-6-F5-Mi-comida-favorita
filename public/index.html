@@ -6,17 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MI COMIDA FAVORITA</title>
     <link rel="stylesheet" href="./css/base.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
     <header>
         <H1> Ñoquis Parisien</H1>
+      <section class="imagen">  
         <img src="./assets/noquis.jpg" alt="Plato con Ñoquis">
-        <div>Tiempo de Preparación: 30 minutos</div>
+        <div class="time">
+            <p>Tiempo de Preparación: 
+                <img class="reloj" src="/public/assets/reloj.png" alt="Reloj">
+                30 minutos
+            </p>
+        </div>
+     </section>
     </header>
 
-    <Main>
-    <section class="Ingredients">
+    <Section class="main">
+    <section class="ingredients">
         <input type="checkbox" name="ingredients" value="manteca"> <span> 100g </span> Manteca <br>
         <input type="checkbox" name="ingredients" value="agua"> <span>4 tazas</span> Agua <br>
         <input type="checkbox" name="ingredients" value="sal"> <span>a gusto</span> Sal <br>
@@ -32,13 +45,13 @@
             <li>Se agregan los huevos uno a uno con mucha paciencia, ya que la masa bomba primero tiende a cortarce y luego solita se une, la masa debe quedar bien lisa.</li>
             <li>haces un rollo de masa gordo como un dedo, cortas pequeñas porciones de 1 cm y 1/2 y los haces rodar por la ñoquera enharinada o por la parte dentada del tenedor.</li>
             <li>De cualquiera de las dos maneras herví los ñoquis, acomodalos en una fuente grande para horno, bañalos con crema de leche, espolvorealos con el queso reggianito rallado y lleva a gratinar en horno fuerte por unos minutos.</li>
-            <li>Servimos de inmediatio en platos hondos.</li>
+            <li>Servimos de inmediato en platos hondos.</li>
         </ol>
     </section>
     
   
 
-</Main>
+    </Section>
  
 </body>
 </html>

@@ -1,17 +1,25 @@
 @use './body.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Space+Mono&display=swap');
 
 header {
     text-align: center;
 }
-main {
-    display: flex;
+
+.main {
+    display: inline-block;
     justify-content: center;
+    
 }
 
-.Ingredients {
+.ingredients, .time p {
+    border-style: solid;
     border-color: black;
     border-width: 2px;
+    padding: 7px;
+    width: fit-content;
+    height: fit-content;
 }
+
 
 h1 {
     background-color: hsl(319, 70%, 80%);
@@ -20,3 +28,40 @@ h1 {
 span {
     font-weight: bold;
 }
+
+ol {
+    list-style: none;
+    counter-reset: item;
+  }
+  li {
+    counter-increment: item;
+    margin-bottom: 5px;
+  }
+  li:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: lightblue;
+    border-radius: 50%;
+    color: white;
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+  }
+
+    img {
+        width: 40%;
+        height: 40% ;
+    }
+
+    .imagen {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .time {
+        width: 20%;
+        height: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Space Mono', monospace;
+
+    }
