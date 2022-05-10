@@ -2,4 +2,12 @@ body {
   background-color: hsl(319deg, 53%, 74%);
 }
 
+.container {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  width: 50%;
+  justify-items: center;
+}
+
 /*# sourceMappingURL=body.css.map */

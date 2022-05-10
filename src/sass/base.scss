@@ -1,25 +1,36 @@
 @use './body.scss';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Space+Mono&display=swap');
+
 
 header {
     text-align: center;
 }
 
-.main {
-    display: inline-block;
-    justify-content: center;
-    
+.header2 {
+    display: flex;
+    justify-content: space-around;
+
 }
 
-.ingredients, .time p {
-    border-style: solid;
-    border-color: black;
+.ingredients, .preparation  {
+    border-style:dashed;
+    border-color: hsl(318, 67%, 34%);
     border-width: 2px;
     padding: 7px;
     width: fit-content;
     height: fit-content;
+    width:fit-content;
+    height: fit-content;
+
+    .reloj {
+        width:50%;
+        height: 50%;
+    }
+
 }
 
+.ingredients {
+    text-align: left;
+}
 
 h1 {
     background-color: hsl(319, 70%, 80%);
@@ -40,7 +51,7 @@ ol {
   li:before {
     margin-right: 10px;
     content: counter(item);
-    background: lightblue;
+    background: rgb(28, 182, 233);
     border-radius: 50%;
     color: white;
     width: 1.2em;
@@ -53,15 +64,11 @@ ol {
         height: 40% ;
     }
 
-    .imagen {
-        display: flex;
-        justify-content: space-around;
+
+    .recipe {
+        text-align: center;
     }
-
-    .time {
-        width: 20%;
-        height: 20px;
-        font-family: 'Roboto', sans-serif;
-        font-family: 'Space Mono', monospace;
-
+    
+    hr {
+        width: 40%;
     }
