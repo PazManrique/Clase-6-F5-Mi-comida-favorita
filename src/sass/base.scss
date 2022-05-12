@@ -22,14 +22,14 @@ header {
 
 .ingredients, .preparation  {
 
-    background-color: hsl(23, 7%, 57%);
-    border-top-left-radius: 50px 100px;
-    border-bottom-right-radius: 50px 100px;
+   border-radius: 50%,50%;
+  
     padding-left: 35px;
     padding-right: 38px;
     padding-top: 40px;
     font-family: 'Raleway', sans-serif;
     font-size: large;
+    color: white;
     size: 30%;
     background-size: contain;
 }
@@ -89,6 +89,8 @@ ol {
 
     .recipe {
         text-align: center;
+        background-color: antiquewhite;
+        padding: 3px;
     }
     
     hr {

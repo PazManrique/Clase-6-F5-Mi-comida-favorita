@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?fam6ily=Macondo&family=Raleway:wght@200&family=Roboto:wght@300&display=swap");
 body {
-  background-color: hsl(22deg, 41%, 95%);
+  background-image: url(/public/assets/fondo.jpg);
+  background-color: hsl(30deg, 5%, 15%);
   margin-left: 200px;
   margin-right: 200px;
 }
@@ -22,14 +23,13 @@ header h1 {
 }
 
 .ingredients, .preparation {
-  background-color: hsl(23deg, 7%, 57%);
-  border-top-left-radius: 50px 100px;
-  border-bottom-right-radius: 50px 100px;
+  border-radius: 50%, 50%;
   padding-left: 35px;
   padding-right: 38px;
   padding-top: 40px;
   font-family: "Raleway", sans-serif;
   font-size: large;
+  color: white;
   size: 30%;
   background-size: contain;
 }
@@ -89,6 +89,8 @@ li:before {
 
 .recipe {
   text-align: center;
+  background-color: antiquewhite;
+  padding: 3px;
 }
 
 hr {
