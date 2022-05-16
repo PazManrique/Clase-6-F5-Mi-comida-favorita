@@ -13,6 +13,9 @@ header {
      } 
 }
 
+.photo {
+    margin-left: 30%;
+}
 .header2 {
     display: flex;
     justify-content: space-around;
@@ -70,7 +73,7 @@ ol {
   }
 
     .noquis {
-     width: 100%;
+     width: 60%;
      height: 200px;
      padding-top: 50px;
     }
@@ -84,4 +87,9 @@ ol {
     
     hr {
         width: 40%;
+    }
+
+    footer {
+        color: white;
+        text-align: center;
     }

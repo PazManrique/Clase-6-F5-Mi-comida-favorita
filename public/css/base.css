@@ -17,6 +17,10 @@ header h1 {
   font-family: "Macondo", cursive;
 }
 
+.photo {
+  margin-left: 30%;
+}
+
 .header2 {
   display: flex;
   justify-content: space-around;
@@ -73,7 +77,7 @@ li:before {
 }
 
 .noquis {
-  width: 100%;
+  width: 60%;
   height: 200px;
   padding-top: 50px;
 }
@@ -86,6 +90,11 @@ li:before {
 
 hr {
   width: 40%;
+}
+
+footer {
+  color: white;
+  text-align: center;
 }
 
 /*# sourceMappingURL=base.css.map */
