@@ -1,14 +1,22 @@
 {
   "name": "clase-6",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ejercicio de html5 para practicar tag y diseño.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "sass": "^1.51.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PazManrique/Mi-comida-favorita.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PazManrique/Mi-comida-favorita/issues"
+  },
+  "homepage": "https://github.com/PazManrique/Mi-comida-favorita#readme"
 }
