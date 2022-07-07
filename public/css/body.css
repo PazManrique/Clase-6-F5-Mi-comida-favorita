@@ -1,7 +1,5 @@
 body {
-  background-image: url(/public/assets/fondo.jpg);
-  background-color: hsl(30deg, 5%, 15%);
-  margin: 0px auto;
+  width: 100%;
 }
 
 /*# sourceMappingURL=body.css.map */

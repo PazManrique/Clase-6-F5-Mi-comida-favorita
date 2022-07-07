@@ -1,70 +1,61 @@
 @use './body.scss';
 @import url('https://fonts.googleapis.com/css2?fam6ily=Macondo&family=Raleway:wght@200&family=Roboto:wght@300&display=swap');
-
+  
 header {
-    text-align: center;
-        img {
-            width: 100%;
-            position: relative;
-        }
+    width: 100%;
+    margin: auto;
+
+   .banner{
+    img{
+    width: 100%;
+
+   }}
+   
+
 
      h1 {
-        font-family: 'Macondo', cursive;
-        font-size: 150px;
+        font-size:xx-large;
+        text-align: center;
+
+     
      } 
 }
-.photo {
- background-image: url(/public/assets/noquis.jpg);
- position: relative;
- background-size: cover;
-}
 
-.header2 {
+.ingredientsAndTime {
+  padding-top: 30px;
     display: flex;
     position: relative;
-    justify-content: flex-start;
-
- .ingredients{
-     width: 50%;
-     text-align: left;
- }
-
-
-
- .ingredients, .preparation {  
-    padding-left: 35px;
-    padding-right: 38px;
-    padding-top: 40px;
+    justify-content: space-around;
     font-family: 'Raleway', sans-serif;
     font-size: larger;
-    color: white;
     text-align: center;
-    border-width: 5px;
+  
+
+ .ingredients{
+  text-align: center;
+  padding: 40px;
+  border-width: 0.5px;
     border-style: solid;
-    border-color: white;
-
-}
-
-.preparation {
-    margin-left:  400px;
-}
-
-}
-
-
-
-
-    .reloj {
-       size: 40%;
-       position: relative;
+    border-color: black;
+    margin: auto;
+    
+     
     }
 
+     .preparation { 
+      padding: 2%;
+        
+        
+        text-align: center;
+        margin: auto;
+        border-width: 0.5px;
+        border-style: solid;
+        border-color: black;
+ }
 
-
-h1 {
-    background-color: hsl(24, 31%, 53%);
-    
 }
+
+
 
 span {
     font-weight: bold;
@@ -83,7 +74,7 @@ ol {
     content: counter(item);
     background: rgb(28, 182, 233);
     border-radius: 50%;
-    color: white;
+    color: rgb(18, 18, 18);
     width: 1.2em;
     text-align: center;
     display: inline-block;
@@ -95,10 +86,11 @@ ol {
     .recipe {
         text-align: center;
         background-color: antiquewhite;
-        padding: 40px;
-        font-size: x-large;
+        padding: 30px;
+        font-size:medium;
         font-weight: lighter;
-        width: 50%;
+        width: 80%;
+        margin: auto;
     }
     
     footer {
